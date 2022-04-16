@@ -5,11 +5,15 @@ int main()
 {
     int myCase = 0;
 
-    switch (myCase = 1)
+    cin >> myCase;
+ 
+    switch (myCase)
     {
     case 1:
-        cout << ++ myCase << endl;
-        //break;
+        cout << myCase -- << endl; 
+    case 0:
+        cout << myCase << endl;
+        break;
     
     default:
         cout << "ha" << endl;
