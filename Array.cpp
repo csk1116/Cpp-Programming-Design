@@ -8,17 +8,21 @@ using namespace std;
 int main()
 {
     cout << INT_MIN << ", " << INT_MAX << endl;
-    int a = 0;
+        
+    float myFloatArray[10] = {0.0};
     float f;
-    int temp = INT_MAX;
-    while (temp != 0)
+    int arraySize = sizeof(myFloatArray) / sizeof(myFloatArray[0]);
+    cout << sizeof(myFloatArray) << ", " << sizeof(myFloatArray[0]) << endl;
+
+    while (arraySize > 0)
     {
-        f = sqrt((double)temp);
+        f = sqrt(static_cast<float>(arraySize));
         cout << setprecision(10) << f << endl;
-        temp /= 2;
-        a++;
+        myFloatArray[arraySize -1] = f;
+        arraySize --;       
     }    
     
-    cout << a << ", " << sizeof(int) << endl;
+    cout << myFloatArray << endl;
+    
     return 0;
 }
