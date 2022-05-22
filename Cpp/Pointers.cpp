@@ -37,7 +37,7 @@ int main()
     swapP(&a, &c);
     printAll(a, b, c, d);
    
-    int* ptrArray[100] = {nullptr};
+    int* ptrArray[100] = {nullptr};    
     //int valueArr[100] = {0};
 
     for(int i = 0; i < 100; i++)
