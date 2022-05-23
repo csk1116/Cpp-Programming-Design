@@ -3,7 +3,7 @@ using namespace std;
 
 void swap1(int &, int &); //call by reference
 void swap2(int, int); //call by value
-void editArray(int [], int, int); //array
+void editArray(int [], int, int); //array is call by ref
 int factorial(const int);
 
 int main()
