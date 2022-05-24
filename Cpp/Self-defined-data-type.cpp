@@ -14,6 +14,7 @@ struct Point
         return sqrt(pow(x, 2) + pow(y, 2));
     }
     double distToOriginDec();
+    void reflectMemberFunction();
 };
 
 typedef Point Vector;
@@ -25,6 +26,13 @@ void reflect(Point& p)
     int temp = p.x;
     p.x = p.y;
     p.y = temp;
+}
+
+void Point::reflectMemberFunction()
+{
+    int temp = x;
+    x = y;
+    y = temp;
 }
 
 void understandMemAllocForStruct()
@@ -60,6 +68,7 @@ int main()
     myPoint.x += 100;
     myPoint.y -= 100;
     reflect(myPoint);
+    myPoint.reflectMemberFunction();
     cout << myPoint.x << ", " << myPoint.y << ", " << myPoint.distToOrigin() << endl; 
     understandMemAllocForStruct();
 
