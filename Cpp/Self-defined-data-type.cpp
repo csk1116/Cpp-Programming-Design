@@ -47,7 +47,7 @@ void understandMemAllocForStruct()
     }
    
     Point* b = new Point[3];
-    b->x = 1;
+    b->x = 1; //is equivalent to (*b).x
     b->y = 2;
     (b + 1)->x = 3;
     (b + 2)->x = 4;
