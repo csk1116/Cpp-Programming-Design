@@ -1,7 +1,8 @@
-#include<iostream>
+#include <iostream>
+#include "testMyHeader.h"
 using namespace std;
 
-void myHeader()
+void testHeader()
 {
-    cout << "test header cpp" << endl;    
+    cout << "test header cpp" << LEN << endl;    
 }

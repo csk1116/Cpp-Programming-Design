@@ -1,8 +1,9 @@
 #include <iostream>
-//#include "testMyHeader.h"
+#include "testMyHeader.h"
 using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
-	cout << "Hello world!" << endl;
+	testHeader();
+	cout << "Hello world haha!" << endl;	
 }
