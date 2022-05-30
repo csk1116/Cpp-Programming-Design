@@ -1,0 +1,318 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+
+# Make data base, printed on Mon May 30 15:43:40 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/CSK/git/Some-Basic-Practice
+# default
+SHELL := C:/msys64/usr/bin/sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\CSK\OneDrive
+# environment
+CUDA_PATH_V10_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
+# environment
+MSMPI_BIN = C:\Program Files\Microsoft MPI\Bin\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\CSK\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f03a3456-8ce5-423b-a5d5-c10d8d51ecbb-sock
+# environment
+VSCODE_CWD = C:\Program Files\Microsoft VS Code
+# environment
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Python36-32\Scripts\;C:\Program Files (x86)\Python36-32\;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\opencv\build\x64\vc15\bin;C:\WINDOWS\System32\OpenSSH\;C:\fuzzylite-6.0\fuzzylite\debug\bin;C:\Users\CSK\Anaconda3\Scripts;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ZED SDK\dependencies\freeglut_2.8\x64;C:\Program Files (x86)\ZED SDK\dependencies\glew-1.12.0\x64;C:\Program Files (x86)\ZED SDK\dependencies\opencv_3.1.0\x64\vc14\bin;C:\Program Files (x86)\ZED SDK\bin;C:\Program Files\CMake\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts;C:\bazel_msys2;C:\msys64\usr\bin;C:\cudnn\cuda\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\CSK\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GnuWin32\bin;C:\MinGW\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\CSK\AppData\Local\GitHubDesktop\bin;C:\Users\CSK\AppData\Local\Microsoft\WindowsApps;C:\Users\CSK\AppData\Roaming\npm
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132944950148253944
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\CSK
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+ZED_SDK_ROOT_DIR = C:\Program Files (x86)\ZED SDK
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29160_PNCXKSKVVYRTRXSW
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = CSK
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = CSK
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\CSK\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\CSK
+# environment
+ONEDRIVECONSUMER = C:\Users\CSK\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = CSK
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\CSK\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\2ed99c56c8d2f29851bc2acf14deb909-1.67.2-main-sock
+# environment
+HOMEPATH = \Users\CSK
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+NVCUDASAMPLES10_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.0
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\CSK\AppData\Roaming
+# environment
+TEMP = C:\Users\CSK\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e09
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 29160
+# environment
+USERDOMAIN_ROAMINGPROFILE = CSK
+# variable set hash-table stats:
+# Load=98/1024=10%, Rehash=0, Collisions=9/114=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts (key C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Scripts, mtime 1556201096): 10 files, no impossibilities.
+# C:\msys64\usr\bin (key C:/msys64/usr/bin, mtime 1650029963): 411 files, no impossibilities so far.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1626508471): 32 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1649691924): 155 files, no impossibilities.
+# . (key c:/Users/CSK/git/Some-Basic-Practice, mtime 1653896280): 11 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp, mtime 1549050212): 14 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1549942503): 10 files, no impossibilities.
+# C:\Program Files\Microsoft MPI\Bin\ (key C:/Program Files/Microsoft MPI/Bin/, mtime 1508238174): 6 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1652618718): 11 files, no impossibilities.
+# C:\Python310\ (key C:/Python310/, mtime 1650021577): 18 files, no impossibilities.
+# C:\Program Files (x86)\Python36-32\: could not be stat'd.
+# C:\Program Files (x86)\Windows Live\Shared: could not be stat'd.
+# C:\Python310\Scripts\ (key C:/Python310/Scripts/, mtime 1650021578): 5 files, no impossibilities.
+# C:\Program Files (x86)\Python36-32\Scripts\: could not be stat'd.
+# C:\Program Files (x86)\ZED SDK\dependencies\opencv_3.1.0\x64\vc14\bin: could not be stat'd.
+# C:\Users\CSK\Anaconda3\Scripts: could not be stat'd.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1549358163): 5 files, no impossibilities.
+# C:\fuzzylite-6.0\fuzzylite\debug\bin: could not be stat'd.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin, mtime 1556197393): 43 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1508237351): 4 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1626497801): 136 files, no impossibilities.
+# C:\ProgramData\Oracle\Java\javapath (key C:/ProgramData/Oracle/Java/javapath, mtime 1527775097): 5 files, no impossibilities.
+# C:\bazel_msys2: could not be stat'd.
+# C:\Program Files (x86)\ZED SDK\bin: could not be stat'd.
+# C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64 (key C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64, mtime 1543479242): 20 files, no impossibilities.
+# C:\Program Files (x86)\ZED SDK\dependencies\glew-1.12.0\x64: could not be stat'd.
+# C:\Program Files (x86)\ZED SDK\dependencies\freeglut_2.8\x64: could not be stat'd.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1653887288): 3088 files, no impossibilities.
+# C:\opencv\build\x64\vc15\bin: could not be stat'd.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1542789756): 7 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1549940612): 5 files, no impossibilities.
+
+# 3996 files, no impossibilities in 32 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Mon May 30 15:43:40 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+

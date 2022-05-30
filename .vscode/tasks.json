@@ -10,7 +10,9 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"-I",
+				"C:/Users/CSK/git/Some-Basic-Practice/Header/"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
