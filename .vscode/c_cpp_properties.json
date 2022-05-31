@@ -3,11 +3,12 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"                
+                "${workspaceFolder}/**",
+                "C:/Users/CSK/git/Some-Basic-Practice/Header/"         
             ],
             "browse": {
                 "path": [
-                    
+                    "C:/Users/CSK/git/Some-Basic-Practice/Header/"
                 ]
             },
             "defines": [

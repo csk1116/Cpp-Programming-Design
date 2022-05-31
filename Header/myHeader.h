@@ -1,2 +1,2 @@
-const int LEN = 15;
+const int LENG = 15;
 void myHeader();
